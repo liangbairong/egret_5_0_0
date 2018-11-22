@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Page1_eui" width="750" height="1220" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="anxx">
+			<tween:TweenItem target="{xx}">
+				<tween:Set/>
+				<tween:To duration="2000" ease="bounceIn" >
+					<tween:props >
+						<e:Object rotation="{360}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect width="750" height="1220" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0.6"/>
+	<e:Image id="bg" width="750" height="1220" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="p2_bg_png"/>
+	<e:Image id="xx" width="186.67" height="162.42" x="327.41" y="113.04" anchorOffsetX="92.72" anchorOffsetY="79.62" source="p5_yanhua1_png"/>
+</e:Skin>

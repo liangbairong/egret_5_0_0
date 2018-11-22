@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="List_eui" width="750" height="1220" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="list">
+			<tween:TweenItem target="{list_box}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000" ease="quintOut">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="bg" width="750" height="1220" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="p5_bg_png"/>
+	<e:Group id="list_box" width="560" height="640" x="84" y="242" alpha="1">
+		<e:Rect width="560" height="640" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Scroller width="560" height="640" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" enabled="true" scaleX="1" scaleY="1">
+			<e:Group anchorOffsetX="0" width="520" anchorOffsetY="0" height="530">
+			<e:TextInput width="395.76" height="95.76" x="83.94" y="435.12" anchorOffsetX="0" anchorOffsetY="0" textColor="0xbf0b0b" visible="false"/>
+				<e:List id="listc" width="492" height="30" x="34.3" y="23.88" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="item" scaleX="1" scaleY="1">
+					<e:ArrayCollection>
+					<e:Array>
+						<e:Object name="小白" value="dome"/>
+					</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:VerticalLayout/>
+					</e:layout>
+				</e:List>
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

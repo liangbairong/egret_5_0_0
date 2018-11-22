@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Loading_eui" width="750" height="1220" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="kk">
+			<tween:TweenItem target="{yd}">
+				<tween:Set/>
+				<tween:To duration="1000" ease="quartInOut">
+					<tween:props>
+						<e:Object rotation="{20}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000" ease="quintInOut">
+					<tween:props>
+						<e:Object rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect width="750" height="1220" x="0" y="0" fillColor="0xddeefe"/>
+	<e:Group height="31" verticalCenter="0" left="190">
+		<e:Image id="jd" width="370" height="31" y="14" anchorOffsetY="14" source="jd_jpg" scaleX="1" scaleY="1" anchorOffsetX="0" left="0" fillMode="repeat"/>
+	</e:Group>
+	<e:Label id="textFtestield" text="0%" y="507" anchorOffsetX="-138.33" width="274" anchorOffsetY="-156" height="230" verticalAlign="middle" textAlign="center" textColor="0x0ea2d6" horizontalCenter="0"/>
+</e:Skin>

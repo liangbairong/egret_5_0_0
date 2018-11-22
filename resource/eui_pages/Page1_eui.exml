@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Page1_eui" width="750" height="1220" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="an_init">
+			<tween:TweenItem target="{car1}">
+				<tween:Set/>
+				<tween:To duration="6000" ease="quadOut">
+					<tween:props>
+						<e:Object x="{205.98}" y="{1125.64}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{balloon}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{-182.62}" y="{86.29}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="3250">
+					<tween:props>
+						<e:Object x="{123.44}" y="{274.35}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="3650">
+					<tween:props>
+						<e:Object x="{375}" y="{113.74}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="2500">
+					<tween:props>
+						<e:Object x="{590.15}" y="{233.44}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="5600">
+					<tween:props>
+						<e:Object x="{773.48}" y="{106.17}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image id="bg" width="750" height="1220" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="bg_1_jpg"/>
+	<e:Image id="bg2" width="750" height="1220" x="204.1" y="488.13" anchorOffsetX="204.1" anchorOffsetY="488.13" source="dalou_png"/>
+	<e:Image id="car1" width="137" height="86" x="-4.86" y="987.76" anchorOffsetX="63.64" anchorOffsetY="45.45" source="car_png"/>
+	<e:Image id="lou" width="318" height="543" x="71.53" y="274.35" source="wld_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image width="655" height="522" x="55.95" y="664.66" anchorOffsetX="0" anchorOffsetY="0" source="remqun_png"/>
+	<e:Image id="balloon" width="139" height="264" x="-207.5" y="86.39" source="p1_box_png" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>
