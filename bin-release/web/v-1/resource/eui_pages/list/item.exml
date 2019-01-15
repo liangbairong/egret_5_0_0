@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="item" width="400" height="30" xmlns:e="http://ns.egret.com/eui">
+	<e:Label text="{data.name}" x="0" y="0" anchorOffsetX="0" width="200" height="30"/>
+	<e:Label text="{data.value}" x="199" y="0" anchorOffsetY="0" height="30" width="200"/>
+</e:Skin>

@@ -5,7 +5,7 @@
 			"name": "loading"
 		},
 		{
-			"keys": "bg_3_jpg,bg_4_jpg,bg_9_jpg,bg_10_jpg,cebi_jpg,discern_jpg,game_bg_1_jpg,game_bg_2_jpg,game_bg_3_jpg,game_bg_4_jpg,jd_jpg,jdtn_jpg,sberr_jpg,shares_jpg,v_q_1_jpg,v_q_2_jpg,v_q_3_jpg,v_q_4_jpg,bird_png,btn_an_1_png,btn_an_2_png,btn_an_3_png,btn_an_4_png,car_png,cErr_png,dalou_png,dtBtn_on_png,dtBtn_png,fag_png,game_bg_dh1_png,jxBtn_png,laba_png,lhj_i_png,loadbtn_png,loading3_png,louc_png,men_png,music_icon_t_png,music_icon_png,nlt_png,p1_box_png,p1_qq_png,p2_bear_png,p2_desk_png,p2_qq_png,p3_gqx_png,p3_jt_png,p3_ts_png,p4_an_1_png,p4_an_2_png,p4_an_3_png,p4_an_4_png,p4_btnlx_png,p4_jtx_png,Qana_png,qqmicu_png,qx_png,remqun_png,ren_1_png,ren_2_png,ren_3_png,ren_4_png,ren_5_png,ren_6_png,sb_last_png,sb_succ_png,sb_wg_png,send_1_png,send_2_png,shareBtn_png,sharets_png,stext_png,succ_ys_2_png,succ_ys_3_png,succ_ys_4_png,succ_ys_png,sxion_png,tmbtn_1_png,tmbtn_2_png,tmwk_2_png,tmwk_3_png,yun_png,zd_png,zhbBtn_png,bg_1_jpg,wld_png,loading_png,hbleft_png,hbright_png",
+			"keys": "bg_3_jpg,bg_4_jpg,bg_9_jpg,bg_10_jpg,cebi_jpg,discern_jpg,game_bg_1_jpg,game_bg_2_jpg,game_bg_3_jpg,game_bg_4_jpg,jd_jpg,jdtn_jpg,sberr_jpg,shares_jpg,v_q_1_jpg,v_q_2_jpg,v_q_3_jpg,v_q_4_jpg,bird_png,btn_an_1_png,btn_an_2_png,btn_an_3_png,btn_an_4_png,car_png,cErr_png,dalou_png,dtBtn_on_png,dtBtn_png,fag_png,game_bg_dh1_png,jxBtn_png,laba_png,lhj_i_png,loadbtn_png,loading3_png,louc_png,men_png,music_icon_t_png,music_icon_png,nlt_png,p1_box_png,p1_qq_png,p2_bear_png,p2_desk_png,p2_qq_png,p3_gqx_png,p3_jt_png,p3_ts_png,p4_an_1_png,p4_an_2_png,p4_an_3_png,p4_an_4_png,p4_btnlx_png,p4_jtx_png,Qana_png,qqmicu_png,qx_png,remqun_png,ren_1_png,ren_2_png,ren_3_png,ren_4_png,ren_5_png,ren_6_png,sb_last_png,sb_succ_png,sb_wg_png,send_1_png,send_2_png,shareBtn_png,sharets_png,stext_png,succ_ys_2_png,succ_ys_3_png,succ_ys_4_png,succ_ys_png,sxion_png,tmbtn_1_png,tmbtn_2_png,tmwk_2_png,tmwk_3_png,yun_png,zd_png,zhbBtn_png,bg_1_jpg,wld_png,loading_png,hbleft_png,hbright_png,p7_da_2_png,p7_da_1_png,tmwk_png,xSm_png,yf_png,game_bg_dh3_png,wld2_png,game_bg_dh2_png,p8_dd_png,p8_hb_png,xerr_png,p5_brid_sb_png,tmwk_4_png,p6_ts_png,vgameerr_png,p4_ts_png,p5_bird_png,qq_json,qq_png",
 			"name": "preload"
 		}
 	],
@@ -839,6 +839,101 @@
 			"url": "assets/images/hbright.png",
 			"type": "image",
 			"name": "hbright_png"
+		},
+		{
+			"name": "p7_da_2_png",
+			"type": "image",
+			"url": "assets/images/p7_da_2.png"
+		},
+		{
+			"name": "p7_da_1_png",
+			"type": "image",
+			"url": "assets/images/p7_da_1.png"
+		},
+		{
+			"name": "tmwk_png",
+			"type": "image",
+			"url": "assets/images/tmwk.png"
+		},
+		{
+			"name": "xSm_png",
+			"type": "image",
+			"url": "assets/images/xSm.png"
+		},
+		{
+			"name": "yf_png",
+			"type": "image",
+			"url": "assets/images/yf.png"
+		},
+		{
+			"name": "game_bg_dh3_png",
+			"type": "image",
+			"url": "assets/images/game_bg_dh3.png"
+		},
+		{
+			"name": "wld2_png",
+			"type": "image",
+			"url": "assets/images/wld.png"
+		},
+		{
+			"name": "game_bg_dh2_png",
+			"type": "image",
+			"url": "assets/images/game_bg_dh2.png"
+		},
+		{
+			"name": "p8_dd_png",
+			"type": "image",
+			"url": "assets/images/p8_dd.png"
+		},
+		{
+			"name": "p8_hb_png",
+			"type": "image",
+			"url": "assets/images/p8_hb.png"
+		},
+		{
+			"name": "xerr_png",
+			"type": "image",
+			"url": "assets/images/xerr.png"
+		},
+		{
+			"name": "p5_brid_sb_png",
+			"type": "image",
+			"url": "assets/images/p5_brid_sb.png"
+		},
+		{
+			"name": "tmwk_4_png",
+			"type": "image",
+			"url": "assets/images/tmwk_4.png"
+		},
+		{
+			"name": "p6_ts_png",
+			"type": "image",
+			"url": "assets/images/p6_ts.png"
+		},
+		{
+			"name": "vgameerr_png",
+			"type": "image",
+			"url": "assets/images/vgameerr.png"
+		},
+		{
+			"name": "p4_ts_png",
+			"type": "image",
+			"url": "assets/images/p4_ts.png"
+		},
+		{
+			"name": "p5_bird_png",
+			"type": "image",
+			"url": "assets/images/p5_bird.png"
+		},
+		{
+			"name": "qq_json",
+			"type": "json",
+			"url": "assets/spirit/qq/qq.json"
+		},
+		{
+			"name": "qq_png",
+			"type": "image",
+			"url": "assets/spirit/qq/qq.png"
 		}
 	]
 }

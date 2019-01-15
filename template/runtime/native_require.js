@@ -8,19 +8,18 @@ var game_file_list = [
 	"libs/modules/res/res.js",
 	"libs/modules/tween/tween.js",
 	"libs/modules/game/game.js",
+	"bin-debug/uilts/SceneManage.js",
 	"bin-debug/uilts/Http.js",
 	"bin-debug/uilts/Hint.js",
-	"bin-debug/uilts/SceneManage.js",
-	"bin-debug/pages/List.js",
-	"bin-debug/Global.js",
 	"bin-debug/Main.js",
 	"bin-debug/AssetAdapter.js",
+	"bin-debug/Global.js",
+	"bin-debug/common/Spirit.js",
+	"bin-debug/pages/List.js",
 	"bin-debug/pages/Loading.js",
 	"bin-debug/pages/Page1.js",
 	"bin-debug/ThemeAdapter.js",
 	"bin-debug/uilts/Uploading.js",
-	"bin-debug/uilts/WTween/Tools.js",
-	"bin-debug/uilts/WTween/WTween.js",
 	//----auto game_file_list end----
 ];
 

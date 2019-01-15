@@ -10,6 +10,11 @@ var Page1 = (function (_super) {
     __extends(Page1, _super);
     function Page1() {
         var _this = _super.call(this) || this;
+        _this.qq = {
+            obj: null,
+            x: 240,
+            y: 800
+        };
         _this.skinName = "Page1_eui";
         setTimeout(function () {
             _this.init();
@@ -19,12 +24,28 @@ var Page1 = (function (_super) {
     Page1.prototype.init = function () {
         this.an_init.play(0);
         this.linkto();
-        //   var loading = new egret.Bitmap(RES.getRes("hbleft_png"));
-        //         this.addChild(loading);
-        //         loading.y=300;
-        //    egret.Tween.get(this.balloon).to({ x:100,y:200},1000)
-        //    .to({ x:200,y:300}, 1000)
-        //    .to({ x:300,y:200}, 1000)
+        var data = RES.getRes("qq_json");
+        var txtr = RES.getRes("qq_png");
+        var mcFactory = new egret.MovieClipDataFactory(data, txtr);
+        this.qq.obj = new egret.MovieClip(mcFactory.generateMovieClipData("qq"));
+        // qq.play(-1);
+        this.addChild(this.qq.obj);
+        this.qq.obj.x = this.qq.x;
+        this.qq.obj.y = this.qq.y;
+        this.qq.obj.gotoAndPlay("right", -1);
+        egret.Ticker.getInstance().register(this.onTick, this);
+    };
+    Page1.prototype.onTick = function (dt) {
+        console.log("Sd");
+        if (this.qq.x >= 300) {
+        }
+        else {
+            this.qq.x++;
+        }
+        this.qq.y = this.qq.y - 0.5;
+        this.qq.obj.x = this.qq.x;
+        this.qq.obj.y = this.qq.y;
+        // egret.Ticker.getInstance().unregister(this.onTick, this);
     };
     Page1.prototype.linkto = function () {
         // 提示
@@ -41,13 +62,6 @@ var Page1 = (function (_super) {
         //     this.addChild(img)
         // });
         //帧动画
-        // var data = RES.getRes("nn_json");
-        // var txtr = RES.getRes("nn_png");
-        // var mcFactory:egret.MovieClipDataFactory = new egret.MovieClipDataFactory( data, txtr );
-        // var nn:egret.MovieClip = new egret.MovieClip( mcFactory.generateMovieClipData( "nn" ) );
-        // nn.play(-1);
-        // this.addChild(nn)
-        // // nn.gotoAndPlay(0);
     };
     Page1.prototype.close = function () {
         console.log("关闭page");
